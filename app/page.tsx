@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useCallback, useRef, useState } from "react";
 import AvatarCard, { AvatarCardRef } from "@/components/AvatarCard";
 import CameraCard, { CameraCardRef } from "@/components/CameraCard";
 
@@ -46,7 +46,13 @@ export default function Home() {
     setIsRecording(false);
     setIsCameraOnlyActive(false);
   };
+  const handleCameraStateChange = useCallback((active: boolean) => {
+    setIsCameraOnlyActive(active);
 
+    if (!active) {
+      setIsRecording(false);
+    }
+  }, []);
   return (
     <div className="flex flex-col gap-6 py-1 pb-16">
       {/* Live AI Avatar Card (Speech to Sign) */}
@@ -62,12 +68,7 @@ export default function Home() {
       {/* Live Camera & Key Mapping Card (Sign to Text) */}
       <CameraCard
         ref={cameraRef}
-        onCameraStateChange={(active) => {
-          setIsCameraOnlyActive(active);
-          if (!active && isRecording) {
-            setIsRecording(false);
-          }
-        }}
+        onCameraStateChange={handleCameraStateChange}
       />
 
       {/* Unified Bottom Control Bar */}
@@ -96,7 +97,9 @@ export default function Home() {
               d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
             />
           </svg>
-          <span>{isCameraOnlyActive || isRecording ? "Camera On" : "Camera"}</span>
+          <span>
+            {isCameraOnlyActive || isRecording ? "Camera On" : "Camera"}
+          </span>
         </button>
 
         {/* Center: Large Purple Circular Mic Button */}
@@ -108,7 +111,11 @@ export default function Home() {
             type="button"
             id="main-mic-toggle-btn"
             onClick={handleToggleMic}
-            aria-label={isRecording ? "Stop listening and camera" : "Start speech & camera translation"}
+            aria-label={
+              isRecording
+                ? "Stop listening and camera"
+                : "Start speech & camera translation"
+            }
             className={`relative z-10 w-14 h-14 rounded-full flex items-center justify-center text-white shadow-card transition-all active:scale-90 ${
               isRecording
                 ? "bg-red-500 hover:bg-red-600 ring-4 ring-red-200 shadow-red-200 scale-105"

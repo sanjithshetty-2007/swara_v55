@@ -1251,5 +1251,1311 @@
       ]
     },
     "timestamp": "2026-08-31T15:59:38.022Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/hello.gif",
+          "label": "Hello"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T17:25:32.673Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T17:33:51.321Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T17:33:51.901Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T17:33:52.941Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T17:33:53.430Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T18:54:18.088Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:54:19.480Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:22.533Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:23.038Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:23.543Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:24.044Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:54:24.550Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:54:25.051Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:54:25.554Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:54:26.057Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:54:26.559Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:27.063Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:27.564Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:28.068Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:28.570Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:29.074Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:29.577Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:30.081Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T18:54:30.584Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:54:31.096Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:54:31.602Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:54:32.105Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:54:32.607Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:54:33.110Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:33.613Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:34.118Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T18:54:34.619Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T18:54:35.122Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:35.625Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.9833
+    },
+    "timestamp": "2026-08-31T18:54:36.128Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T18:54:36.791Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:54:37.298Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:37.800Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T18:54:38.305Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:38.808Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T18:54:39.312Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:54:39.813Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.7857
+    },
+    "timestamp": "2026-08-31T18:54:40.317Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:54:40.819Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9556
+    },
+    "timestamp": "2026-08-31T18:54:41.322Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9556
+    },
+    "timestamp": "2026-08-31T18:54:41.828Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T18:54:42.329Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.7556
+    },
+    "timestamp": "2026-08-31T18:54:42.832Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.7857
+    },
+    "timestamp": "2026-08-31T18:54:43.336Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:54:43.837Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.7444
+    },
+    "timestamp": "2026-08-31T18:54:44.969Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T18:54:45.562Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:54:46.069Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:46.573Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:47.073Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:54:47.579Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:55:38.766Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/hello.gif",
+          "label": "Hello"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T18:55:39.159Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:55:39.356Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:55:40.329Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8167
+    },
+    "timestamp": "2026-08-31T18:55:41.128Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.7143
+    },
+    "timestamp": "2026-08-31T18:55:41.629Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9556
+    },
+    "timestamp": "2026-08-31T18:55:52.324Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9556
+    },
+    "timestamp": "2026-08-31T18:55:52.826Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9778
+    },
+    "timestamp": "2026-08-31T18:55:53.329Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7143
+    },
+    "timestamp": "2026-08-31T18:55:53.835Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:55:54.337Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:55:54.838Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:55:55.341Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:55:55.846Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7143
+    },
+    "timestamp": "2026-08-31T18:55:56.347Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7143
+    },
+    "timestamp": "2026-08-31T18:55:56.850Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7143
+    },
+    "timestamp": "2026-08-31T18:55:57.354Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:55:57.858Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:55:58.360Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:55:58.864Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:55:59.366Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:55:59.868Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:56:00.372Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FOUR",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:56:00.874Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:56:01.377Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:56:01.880Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:56:02.383Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:56:02.887Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:56:03.391Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:56:03.893Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T18:56:04.396Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T18:56:04.899Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8667
+    },
+    "timestamp": "2026-08-31T18:56:05.403Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:56:05.905Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9778
+    },
+    "timestamp": "2026-08-31T18:56:06.412Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9778
+    },
+    "timestamp": "2026-08-31T18:56:06.916Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9778
+    },
+    "timestamp": "2026-08-31T18:56:07.419Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T18:56:07.919Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:08.420Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T18:56:08.922Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:09.425Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:09.929Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.7444
+    },
+    "timestamp": "2026-08-31T18:56:10.432Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8556
+    },
+    "timestamp": "2026-08-31T18:56:10.940Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:11.440Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:56:11.945Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T18:56:12.449Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T18:56:12.951Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T18:56:13.455Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T18:56:13.957Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T18:56:14.459Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:56:14.963Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T18:56:15.466Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:16.244Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:23.084Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:23.588Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:24.092Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.7556
+    },
+    "timestamp": "2026-08-31T18:56:24.639Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.7556
+    },
+    "timestamp": "2026-08-31T18:56:25.172Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:25.826Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:26.332Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T18:56:26.836Z"
   }
 ]

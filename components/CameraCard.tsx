@@ -274,10 +274,27 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
         video.muted = true;
         video.playsInline = true;
 
-        try {
-          await video.play();
-        } catch (playErr) {
-          console.warn("Direct play caught:", playErr);
+        const tracks = stream.getVideoTracks();
+        console.log("[Camera] Stream acquired successfully:", stream);
+        console.log("[Camera] Video tracks:", tracks.map(t => ({ label: t.label, readyState: t.readyState, muted: t.muted })));
+
+        // Wait for onloadedmetadata before calling play() to prevent "AbortError: interrupted by a new load request"
+        video.onloadedmetadata = async () => {
+          try {
+            await video.play();
+            console.log("[Camera] Video playback started, resolution:", `${video.videoWidth}x${video.videoHeight}`);
+          } catch (playErr) {
+            console.warn("[Camera] Play error on loadedmetadata:", playErr);
+          }
+        };
+
+        // If metadata is already ready, start playing immediately
+        if (video.readyState >= 1) {
+          try {
+            await video.play();
+          } catch {
+            // Handled by onloadedmetadata
+          }
         }
 
         setIsCameraActive(true);
@@ -285,7 +302,7 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
         startTrackingLoop();
       }
     } catch (err: unknown) {
-      console.error("getUserMedia error:", err);
+      console.error("[Camera] getUserMedia error:", err);
       const errName = err instanceof Error ? err.name : "";
       const errMsg = err instanceof Error ? err.message : String(err);
       if (errName === "NotAllowedError" || errName === "PermissionDeniedError") {
@@ -405,6 +422,7 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
       <div className="w-full aspect-[4/3] max-h-60 bg-slate-900 rounded-2xl border border-primary-100 overflow-hidden relative flex items-center justify-center shadow-inner group">
         <video
           ref={videoRef}
+          autoPlay
           playsInline
           muted
           className="w-full h-full object-cover -scale-x-100"
