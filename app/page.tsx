@@ -16,10 +16,8 @@ export default function Home() {
     if (cameraRef.current) {
       if (isCameraOnlyActive || isRecording) {
         cameraRef.current.stopCamera();
-        setIsCameraOnlyActive(false);
       } else {
         await cameraRef.current.startCamera();
-        setIsCameraOnlyActive(true);
       }
     }
   };
@@ -31,11 +29,9 @@ export default function Home() {
       avatarRef.current?.stopListening();
       cameraRef.current?.stopCamera();
       setIsRecording(false);
-      setIsCameraOnlyActive(false);
     } else {
       // Start both
       setIsRecording(true);
-      setIsCameraOnlyActive(true);
       avatarRef.current?.startListening();
       if (cameraRef.current) {
         await cameraRef.current.startCamera();

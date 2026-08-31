@@ -1191,5 +1191,65 @@
       "confidence": 1
     },
     "timestamp": "2026-08-31T15:33:34.418Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "how are you",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/H.jpg",
+          "label": "H"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/Y.jpg",
+          "label": "Y"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:45:23.989Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/hello.gif",
+          "label": "Hello"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:45:51.810Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/hello.gif",
+          "label": "Hello"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:59:38.022Z"
   }
 ]

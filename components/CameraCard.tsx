@@ -242,27 +242,46 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
       return;
     }
 
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({
-        video: {
-          width: { ideal: 640 },
-          height: { ideal: 480 },
-          facingMode: "user",
-        },
-        audio: false,
-      });
+    // If an existing stream is already active, stop it first to prevent race conditions
+    if (videoRef.current && videoRef.current.srcObject) {
+      try {
+        const oldStream = videoRef.current.srcObject as MediaStream;
+        oldStream.getTracks().forEach((track) => track.stop());
+        videoRef.current.srcObject = null;
+      } catch {
+        // ignore
+      }
+    }
 
-      if (videoRef.current) {
-        videoRef.current.srcObject = stream;
-        setIsCameraActive(true);
-        if (onCameraStateChange) onCameraStateChange(true);
+    try {
+      // First attempt with simple video: true (most universally compatible with Windows webcams)
+      let stream: MediaStream;
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: true,
+          audio: false,
+        });
+      } catch {
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: { width: { ideal: 640 }, height: { ideal: 480 } },
+          audio: false,
+        });
+      }
+
+      const video = videoRef.current;
+      if (video) {
+        video.srcObject = stream;
+        video.muted = true;
+        video.playsInline = true;
 
         try {
-          await videoRef.current.play();
+          await video.play();
         } catch (playErr) {
-          console.warn("video.play() was deferred:", playErr);
+          console.warn("Direct play caught:", playErr);
         }
 
+        setIsCameraActive(true);
+        if (onCameraStateChange) onCameraStateChange(true);
         startTrackingLoop();
       }
     } catch (err: unknown) {
@@ -274,9 +293,11 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
       } else if (errName === "NotFoundError" || errName === "DevicesNotFoundError") {
         setCameraError("No camera device was found on this system.");
       } else if (errName === "NotReadableError" || errName === "TrackStartError") {
-        setCameraError("Camera is currently in use by another application.");
+        setCameraError("Camera is currently in use by another application (Zoom, Teams, etc.).");
+      } else if (errName === "OverconstrainedError") {
+        setCameraError("Camera does not support requested resolution.");
       } else {
-        setCameraError(`Camera error: ${errMsg || "Unable to access camera."}`);
+        setCameraError(`Camera error: ${errName || "Error"} - ${errMsg || "Unable to access camera."}`);
       }
       setIsCameraActive(false);
       if (onCameraStateChange) onCameraStateChange(false);
@@ -284,10 +305,14 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
   };
 
   const stopCamera = React.useCallback(() => {
-    if (videoRef.current && videoRef.current.srcObject) {
-      const stream = videoRef.current.srcObject as MediaStream;
-      stream.getTracks().forEach((track) => track.stop());
-      videoRef.current.srcObject = null;
+    if (videoRef.current) {
+      videoRef.current.onloadeddata = null;
+      videoRef.current.onloadedmetadata = null;
+      if (videoRef.current.srcObject) {
+        const stream = videoRef.current.srcObject as MediaStream;
+        stream.getTracks().forEach((track) => track.stop());
+        videoRef.current.srcObject = null;
+      }
     }
     if (animationFrameIdRef.current) {
       cancelAnimationFrame(animationFrameIdRef.current);
@@ -382,16 +407,15 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
           ref={videoRef}
           playsInline
           muted
-          autoPlay
-          className={`w-full h-full object-cover -scale-x-100 ${isCameraActive ? "block" : "hidden"}`}
+          className="w-full h-full object-cover -scale-x-100"
         />
         <canvas
           ref={canvasRef}
-          className={`absolute inset-0 w-full h-full object-cover -scale-x-100 pointer-events-none ${isCameraActive ? "block" : "hidden"}`}
+          className="absolute inset-0 w-full h-full object-cover -scale-x-100 pointer-events-none"
         />
 
         {!isCameraActive && (
-          <div className="flex flex-col items-center gap-2 text-slate-400 p-4 text-center">
+          <div className="absolute inset-0 bg-slate-900 flex flex-col items-center justify-center gap-2 text-slate-400 p-4 text-center z-10">
             <span className="text-3xl">📷</span>
             <p className="text-xs text-slate-300 font-medium">Camera is currently inactive.</p>
             <div className="flex items-center gap-2 mt-1">
@@ -408,7 +432,7 @@ const CameraCard = forwardRef<CameraCardRef, CameraCardProps>(function CameraCar
 
         {/* Top-Left REC & Elapsed Timer Badge */}
         {isCameraActive && (
-          <div className="absolute top-3 left-3 flex items-center gap-2 bg-black/65 backdrop-blur-md px-2.5 py-1 rounded-full text-white text-[11px] font-mono shadow-sm">
+          <div className="absolute top-3 left-3 z-10 flex items-center gap-2 bg-black/65 backdrop-blur-md px-2.5 py-1 rounded-full text-white text-[11px] font-mono shadow-sm">
             <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
             <span className="font-bold text-red-400">REC</span>
             <span className="text-slate-200">{formatTimer(elapsedSeconds)}</span>

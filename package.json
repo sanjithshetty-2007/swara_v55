@@ -1,11 +1,31 @@
 {
-  "name": "swara-v55-root",
-  "version": "1.0.0",
+  "name": "isl-translator",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix isl-translator run dev",
-    "dev:https": "npm --prefix isl-translator run dev:https",
-    "build": "npm --prefix isl-translator run build",
-    "start": "npm --prefix isl-translator run start"
+    "dev": "next dev",
+    "dev:https": "next dev --experimental-https --experimental-https-key localhost.key --experimental-https-cert localhost.crt",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.0.1",
+    "fingerpose": "^0.1.0",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
   }
 }
