@@ -1,0 +1,58 @@
+{
+  "a": {
+    "imagePath": "/signs/letters/A.jpg",
+    "displayLabel": "A"
+  },
+  "b": {
+    "imagePath": "/signs/letters/B.jpg",
+    "displayLabel": "B"
+  },
+  "c": {
+    "imagePath": "/signs/letters/C.jpg",
+    "displayLabel": "C"
+  },
+  "d": {
+    "imagePath": "/signs/letters/D.jpg",
+    "displayLabel": "D"
+  },
+  "e": {
+    "imagePath": "/signs/letters/E.jpg",
+    "displayLabel": "E"
+  },
+  "f": {
+    "imagePath": "/signs/letters/F.jpg",
+    "displayLabel": "F"
+  },
+  "g": {
+    "imagePath": "/signs/letters/G.jpg",
+    "displayLabel": "G"
+  },
+  "h": {
+    "imagePath": "/signs/letters/H.jpg",
+    "displayLabel": "H"
+  },
+  "l": {
+    "imagePath": "/signs/letters/L.jpg",
+    "displayLabel": "L"
+  },
+  "m": {
+    "imagePath": "/signs/letters/M.jpg",
+    "displayLabel": "M"
+  },
+  "p": {
+    "imagePath": "/signs/letters/P.jpg",
+    "displayLabel": "P"
+  },
+  "t": {
+    "imagePath": "/signs/letters/T.jpg",
+    "displayLabel": "T"
+  },
+  "y": {
+    "imagePath": "/signs/letters/Y.jpg",
+    "displayLabel": "Y"
+  },
+  "z": {
+    "imagePath": "/signs/letters/Z.jpg",
+    "displayLabel": "Z"
+  }
+}

@@ -1,0 +1,1195 @@
+[
+  {
+    "type": "speech-to-sign",
+    "input": "good morning",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/good morning.gif",
+          "label": "Good Morning"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T14:49:08.411Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T14:49:08.525Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "word"
+    },
+    "timestamp": "2026-08-31T14:49:13.307Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "zebra",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/Z.jpg",
+          "label": "Z"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/B.jpg",
+          "label": "B"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T14:54:01.844Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "how are you",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/H.jpg",
+          "label": "H"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/Y.jpg",
+          "label": "Y"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T14:54:06.152Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "good morning",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/good morning.gif",
+          "label": "Good Morning"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T14:54:10.817Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "are you hungry",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/are you hungry.gif",
+          "label": "Are You Hungry"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T14:54:10.826Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:01:26.536Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:26.839Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7
+    },
+    "timestamp": "2026-08-31T15:01:27.342Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FOUR",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T15:01:27.843Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:28.348Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T15:01:28.850Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T15:01:29.353Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.7
+    },
+    "timestamp": "2026-08-31T15:01:29.857Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T15:01:30.359Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T15:01:30.864Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T15:01:31.368Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:31.868Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "TWO",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:32.371Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T15:01:32.874Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T15:01:33.377Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T15:01:33.880Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ONE",
+      "confidence": 0.8333
+    },
+    "timestamp": "2026-08-31T15:01:34.384Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:01:34.886Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:01:35.436Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:35.942Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:36.444Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9778
+    },
+    "timestamp": "2026-08-31T15:01:36.947Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:37.450Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:37.954Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:38.457Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:38.960Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 0.98
+    },
+    "timestamp": "2026-08-31T15:01:40.448Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9667
+    },
+    "timestamp": "2026-08-31T15:01:40.952Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.9857
+    },
+    "timestamp": "2026-08-31T15:01:41.456Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:41.960Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.9286
+    },
+    "timestamp": "2026-08-31T15:01:42.462Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:42.965Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:43.467Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:43.970Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:44.475Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FOUR",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T15:01:44.978Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FOUR",
+      "confidence": 0.8778
+    },
+    "timestamp": "2026-08-31T15:01:45.480Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8429
+    },
+    "timestamp": "2026-08-31T15:01:45.983Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8286
+    },
+    "timestamp": "2026-08-31T15:01:46.486Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.9889
+    },
+    "timestamp": "2026-08-31T15:01:46.989Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.95
+    },
+    "timestamp": "2026-08-31T15:01:47.492Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8556
+    },
+    "timestamp": "2026-08-31T15:01:47.999Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.8375
+    },
+    "timestamp": "2026-08-31T15:01:48.499Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8444
+    },
+    "timestamp": "2026-08-31T15:01:49.002Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8444
+    },
+    "timestamp": "2026-08-31T15:01:49.505Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8556
+    },
+    "timestamp": "2026-08-31T15:01:50.010Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:50.511Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:51.014Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:51.516Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:52.020Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:52.522Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:53.027Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "OK",
+      "confidence": 0.9625
+    },
+    "timestamp": "2026-08-31T15:01:53.529Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T15:01:54.031Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": null,
+      "confidence": 0
+    },
+    "timestamp": "2026-08-31T15:01:55.667Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8
+    },
+    "timestamp": "2026-08-31T15:01:56.171Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8
+    },
+    "timestamp": "2026-08-31T15:01:56.674Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "are you busy",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/Y.jpg",
+          "label": "Y"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/B.jpg",
+          "label": "B"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/Y.jpg",
+          "label": "Y"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:01:58.746Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T15:01:58.779Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "good morning",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/good morning.gif",
+          "label": "Good Morning"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:07:10.865Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "are you hungry",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/are you hungry.gif",
+          "label": "Are You Hungry"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:07:10.882Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "hello",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/hello.gif",
+          "label": "Hello"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:07:10.891Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "zebra",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/Z.jpg",
+          "label": "Z"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/B.jpg",
+          "label": "B"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:07:10.911Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "FIVE",
+      "confidence": 0.8889
+    },
+    "timestamp": "2026-08-31T15:07:11.016Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:07:11.035Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "THUMBS_UP",
+      "confidence": 0.8571
+    },
+    "timestamp": "2026-08-31T15:07:11.041Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "bridges",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/B.jpg",
+          "label": "B"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/G.jpg",
+          "label": "G"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:10:03.132Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "do you want to watch TV",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/Y.jpg",
+          "label": "Y"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/T.jpg",
+          "label": "T"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/T.jpg",
+          "label": "T"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/T.jpg",
+          "label": "T"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/C.jpg",
+          "label": "C"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/H.jpg",
+          "label": "H"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/T.jpg",
+          "label": "T"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:10:23.581Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "addresses",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:10:44.650Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "Ahmedabad",
+    "output": {
+      "type": "fingerspell",
+      "frames": [
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/H.jpg",
+          "label": "H"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/M.jpg",
+          "label": "M"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/E.jpg",
+          "label": "E"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/B.jpg",
+          "label": "B"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/A.jpg",
+          "label": "A"
+        },
+        {
+          "type": "letter",
+          "path": "/signs/letters/D.jpg",
+          "label": "D"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:10:48.769Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "do you want something to drink",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/do you want something to drink.gif",
+          "label": "Do You Want Something To Drink"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:11:00.327Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "do you want something to drink",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/do you want something to drink.gif",
+          "label": "Do You Want Something To Drink"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:11:17.459Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "flower is beautiful",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/flower is beautiful.gif",
+          "label": "Flower Is Beautiful"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:11:51.705Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "I love to shop",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/i love to shop.gif",
+          "label": "I Love To Shop"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:12:03.355Z"
+  },
+  {
+    "type": "speech-to-sign",
+    "input": "please call me later",
+    "output": {
+      "type": "phrase",
+      "frames": [
+        {
+          "type": "gif",
+          "path": "/signs/gifs/please call me later.gif",
+          "label": "Please Call Me Later"
+        }
+      ]
+    },
+    "timestamp": "2026-08-31T15:12:15.290Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:33:34.004Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:33:34.090Z"
+  },
+  {
+    "type": "sign-to-text",
+    "input": {
+      "keypointsCount": 21
+    },
+    "output": {
+      "sign": "ZERO",
+      "confidence": 1
+    },
+    "timestamp": "2026-08-31T15:33:34.418Z"
+  }
+]

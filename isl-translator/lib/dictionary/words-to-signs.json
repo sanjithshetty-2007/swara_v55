@@ -1,0 +1,346 @@
+{
+  "address": {
+    "gifPath": "/signs/gifs/address.gif",
+    "displayLabel": "Address"
+  },
+  "ahemdabad": {
+    "gifPath": "/signs/gifs/ahemdabad.gif",
+    "displayLabel": "Ahemdabad"
+  },
+  "all": {
+    "gifPath": "/signs/gifs/all.gif",
+    "displayLabel": "All"
+  },
+  "any questions": {
+    "gifPath": "/signs/gifs/any questions.gif",
+    "displayLabel": "Any Questions"
+  },
+  "are you angry": {
+    "gifPath": "/signs/gifs/are you angry.gif",
+    "displayLabel": "Are You Angry"
+  },
+  "are you hungry": {
+    "gifPath": "/signs/gifs/are you hungry.gif",
+    "displayLabel": "Are You Hungry"
+  },
+  "assam": {
+    "gifPath": "/signs/gifs/assam.gif",
+    "displayLabel": "Assam"
+  },
+  "august": {
+    "gifPath": "/signs/gifs/august.gif",
+    "displayLabel": "August"
+  },
+  "banana": {
+    "gifPath": "/signs/gifs/banana.gif",
+    "displayLabel": "Banana"
+  },
+  "banaras": {
+    "gifPath": "/signs/gifs/banaras.gif",
+    "displayLabel": "Banaras"
+  },
+  "banglore": {
+    "gifPath": "/signs/gifs/banglore.gif",
+    "displayLabel": "Banglore"
+  },
+  "be careful": {
+    "gifPath": "/signs/gifs/be careful.gif",
+    "displayLabel": "Be Careful"
+  },
+  "bridge": {
+    "gifPath": "/signs/gifs/bridge.gif",
+    "displayLabel": "Bridge"
+  },
+  "cat": {
+    "gifPath": "/signs/gifs/cat.gif",
+    "displayLabel": "Cat"
+  },
+  "christmas": {
+    "gifPath": "/signs/gifs/christmas.gif",
+    "displayLabel": "Christmas"
+  },
+  "church": {
+    "gifPath": "/signs/gifs/church.gif",
+    "displayLabel": "Church"
+  },
+  "cilinic": {
+    "gifPath": "/signs/gifs/cilinic.gif",
+    "displayLabel": "Cilinic"
+  },
+  "dasara": {
+    "gifPath": "/signs/gifs/dasara.gif",
+    "displayLabel": "Dasara"
+  },
+  "december": {
+    "gifPath": "/signs/gifs/december.gif",
+    "displayLabel": "December"
+  },
+  "did you finish homework": {
+    "gifPath": "/signs/gifs/did you finish homework.gif",
+    "displayLabel": "Did You Finish Homework"
+  },
+  "do you have money": {
+    "gifPath": "/signs/gifs/do you have money.gif",
+    "displayLabel": "Do You Have Money"
+  },
+  "do you want something to drink": {
+    "gifPath": "/signs/gifs/do you want something to drink.gif",
+    "displayLabel": "Do You Want Something To Drink"
+  },
+  "do you watch tv": {
+    "gifPath": "/signs/gifs/do you watch TV.gif",
+    "displayLabel": "Do You Watch Tv"
+  },
+  "dont worry": {
+    "gifPath": "/signs/gifs/dont worry.gif",
+    "displayLabel": "Dont Worry"
+  },
+  "flower is beautiful": {
+    "gifPath": "/signs/gifs/flower is beautiful.gif",
+    "displayLabel": "Flower Is Beautiful"
+  },
+  "good afternoon": {
+    "gifPath": "/signs/gifs/good afternoon.gif",
+    "displayLabel": "Good Afternoon"
+  },
+  "good morning": {
+    "gifPath": "/signs/gifs/good morning.gif",
+    "displayLabel": "Good Morning"
+  },
+  "good question": {
+    "gifPath": "/signs/gifs/good question.gif",
+    "displayLabel": "Good Question"
+  },
+  "grapes": {
+    "gifPath": "/signs/gifs/grapes.gif",
+    "displayLabel": "Grapes"
+  },
+  "hello": {
+    "gifPath": "/signs/gifs/hello.gif",
+    "displayLabel": "Hello"
+  },
+  "hindu": {
+    "gifPath": "/signs/gifs/hindu.gif",
+    "displayLabel": "Hindu"
+  },
+  "hyderabad": {
+    "gifPath": "/signs/gifs/hyderabad.gif",
+    "displayLabel": "Hyderabad"
+  },
+  "i am a clerk": {
+    "gifPath": "/signs/gifs/i am a clerk.gif",
+    "displayLabel": "I Am A Clerk"
+  },
+  "i am fine": {
+    "gifPath": "/signs/gifs/i am fine.gif",
+    "displayLabel": "I Am Fine"
+  },
+  "i am sorry": {
+    "gifPath": "/signs/gifs/i am sorry.gif",
+    "displayLabel": "I Am Sorry"
+  },
+  "i am thinking": {
+    "gifPath": "/signs/gifs/i am thinking.gif",
+    "displayLabel": "I Am Thinking"
+  },
+  "i am tired": {
+    "gifPath": "/signs/gifs/i am tired.gif",
+    "displayLabel": "I Am Tired"
+  },
+  "i go to a theatre": {
+    "gifPath": "/signs/gifs/i go to a theatre.gif",
+    "displayLabel": "I Go To A Theatre"
+  },
+  "i had to say something but i forgot": {
+    "gifPath": "/signs/gifs/i had to say something but I forgot.gif",
+    "displayLabel": "I Had To Say Something But I Forgot"
+  },
+  "i like pink colour": {
+    "gifPath": "/signs/gifs/i like pink colour.gif",
+    "displayLabel": "I Like Pink Colour"
+  },
+  "i love to shop": {
+    "gifPath": "/signs/gifs/i love to shop.gif",
+    "displayLabel": "I Love To Shop"
+  },
+  "job": {
+    "gifPath": "/signs/gifs/job.gif",
+    "displayLabel": "Job"
+  },
+  "july": {
+    "gifPath": "/signs/gifs/july.gif",
+    "displayLabel": "July"
+  },
+  "june": {
+    "gifPath": "/signs/gifs/june.gif",
+    "displayLabel": "June"
+  },
+  "karnataka": {
+    "gifPath": "/signs/gifs/karnataka.gif",
+    "displayLabel": "Karnataka"
+  },
+  "kerala": {
+    "gifPath": "/signs/gifs/kerala.gif",
+    "displayLabel": "Kerala"
+  },
+  "krishna": {
+    "gifPath": "/signs/gifs/krishna.gif",
+    "displayLabel": "Krishna"
+  },
+  "lets go for lunch": {
+    "gifPath": "/signs/gifs/lets go for lunch.gif",
+    "displayLabel": "Lets Go For Lunch"
+  },
+  "mango": {
+    "gifPath": "/signs/gifs/mango.gif",
+    "displayLabel": "Mango"
+  },
+  "may": {
+    "gifPath": "/signs/gifs/may.gif",
+    "displayLabel": "May"
+  },
+  "mile": {
+    "gifPath": "/signs/gifs/mile.gif",
+    "displayLabel": "Mile"
+  },
+  "mumbai": {
+    "gifPath": "/signs/gifs/mumbai.gif",
+    "displayLabel": "Mumbai"
+  },
+  "nagpur": {
+    "gifPath": "/signs/gifs/nagpur.gif",
+    "displayLabel": "Nagpur"
+  },
+  "nice to meet you": {
+    "gifPath": "/signs/gifs/nice to meet you.gif",
+    "displayLabel": "Nice To Meet You"
+  },
+  "open the door": {
+    "gifPath": "/signs/gifs/open the door.gif",
+    "displayLabel": "Open The Door"
+  },
+  "pakistan": {
+    "gifPath": "/signs/gifs/pakistan.gif",
+    "displayLabel": "Pakistan"
+  },
+  "please call me later": {
+    "gifPath": "/signs/gifs/please call me later.gif",
+    "displayLabel": "Please Call Me Later"
+  },
+  "police station": {
+    "gifPath": "/signs/gifs/police station.gif",
+    "displayLabel": "Police Station"
+  },
+  "post office": {
+    "gifPath": "/signs/gifs/post office.gif",
+    "displayLabel": "Post Office"
+  },
+  "pune": {
+    "gifPath": "/signs/gifs/pune.gif",
+    "displayLabel": "Pune"
+  },
+  "punjab": {
+    "gifPath": "/signs/gifs/punjab.gif",
+    "displayLabel": "Punjab"
+  },
+  "saturday": {
+    "gifPath": "/signs/gifs/saturday.gif",
+    "displayLabel": "Saturday"
+  },
+  "shall i help you": {
+    "gifPath": "/signs/gifs/shall I help you.gif",
+    "displayLabel": "Shall I Help You"
+  },
+  "shall we go together tommorow": {
+    "gifPath": "/signs/gifs/shall we go together tommorow.gif",
+    "displayLabel": "Shall We Go Together Tommorow"
+  },
+  "shop": {
+    "gifPath": "/signs/gifs/shop.gif",
+    "displayLabel": "Shop"
+  },
+  "sign language interpreter": {
+    "gifPath": "/signs/gifs/sign language interpreter.gif",
+    "displayLabel": "Sign Language Interpreter"
+  },
+  "sit down": {
+    "gifPath": "/signs/gifs/sit down.gif",
+    "displayLabel": "Sit Down"
+  },
+  "stand up": {
+    "gifPath": "/signs/gifs/stand up.gif",
+    "displayLabel": "Stand Up"
+  },
+  "take care": {
+    "gifPath": "/signs/gifs/take care.gif",
+    "displayLabel": "Take Care"
+  },
+  "temple": {
+    "gifPath": "/signs/gifs/temple.gif",
+    "displayLabel": "Temple"
+  },
+  "there was traffic jam": {
+    "gifPath": "/signs/gifs/there was traffic jam.gif",
+    "displayLabel": "There Was Traffic Jam"
+  },
+  "thursday": {
+    "gifPath": "/signs/gifs/thursday.gif",
+    "displayLabel": "Thursday"
+  },
+  "toilet": {
+    "gifPath": "/signs/gifs/toilet.gif",
+    "displayLabel": "Toilet"
+  },
+  "tomato": {
+    "gifPath": "/signs/gifs/tomato.gif",
+    "displayLabel": "Tomato"
+  },
+  "tuesday": {
+    "gifPath": "/signs/gifs/tuesday.gif",
+    "displayLabel": "Tuesday"
+  },
+  "usa": {
+    "gifPath": "/signs/gifs/usa.gif",
+    "displayLabel": "Usa"
+  },
+  "village": {
+    "gifPath": "/signs/gifs/village.gif",
+    "displayLabel": "Village"
+  },
+  "wednesday": {
+    "gifPath": "/signs/gifs/wednesday.gif",
+    "displayLabel": "Wednesday"
+  },
+  "what is the problem": {
+    "gifPath": "/signs/gifs/what is the problem.gif",
+    "displayLabel": "What Is The Problem"
+  },
+  "what is today's date": {
+    "gifPath": "/signs/gifs/what is today's date.gif",
+    "displayLabel": "What Is Today's Date"
+  },
+  "what is your father do": {
+    "gifPath": "/signs/gifs/what is your father do.gif",
+    "displayLabel": "What Is Your Father Do"
+  },
+  "what is your name": {
+    "gifPath": "/signs/gifs/what is your name.gif",
+    "displayLabel": "What Is Your Name"
+  },
+  "whats up": {
+    "gifPath": "/signs/gifs/whats up.gif",
+    "displayLabel": "Whats Up"
+  },
+  "where is the bathroom": {
+    "gifPath": "/signs/gifs/where is the bathroom.gif",
+    "displayLabel": "Where Is The Bathroom"
+  },
+  "where is the police station": {
+    "gifPath": "/signs/gifs/where is the police station.gif",
+    "displayLabel": "Where Is The Police Station"
+  },
+  "you are wrong": {
+    "gifPath": "/signs/gifs/you are wrong.gif",
+    "displayLabel": "You Are Wrong"
+  }
+}
